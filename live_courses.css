@@ -4,11 +4,52 @@
 .main{
     background-color: black;
 }
-#nav{
-   height: 70px;
-   width: 100%;
-   background-color: black;
+.nav{
+    width: 100%;
+    /* position: fixed; */
+    
+    /* background-color:rgb(164, 12, 12); */
 }
+.nav #containt{
+    margin-left: 30px;
+    display: flex;
+    
+}
+#containt #one{
+    display: flex;
+} 
+.nav #containt h1{
+  color: white;
+  font-size: 35px;
+ 
+}
+.nav #containt img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.nav #containt #para{
+    margin-left: 400px;
+    margin-top: 35px;
+}
+.nav #containt #para a{
+    color: white;
+    text-decoration: none;
+   margin-left: 30px;
+   font-size: 18px;
+}
+.nav #containt .b1{
+    height: 50px;
+    width: 100px;
+  border-radius: 10px;
+  margin-left: 70px;
+  margin-top: 20px;
+  font-size: 23px;
+}
+
 
 .l1{
     display: flex;
